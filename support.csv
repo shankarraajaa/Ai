@@ -1,0 +1,5 @@
+CustomerID,TicketID,Issue,Priority,Status
+101,T1001,Login issue,High,Open
+101,T1002,Billing question,Medium,Closed
+102,T1003,Feature request,Low,Open
+103,T1004,App crashes,High,Open

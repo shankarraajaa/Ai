@@ -1,0 +1,4 @@
+CustomerID,Company,Owner,Stage,DealValue,LastMeeting,RenewalDate
+101,Acme Corp,Rahul,Negotiation,25000,2026-07-01,2026-08-10
+102,BrightTech,Priya,Qualified,12000,2026-07-03,2026-09-15
+103,Nova Ltd,Amit,Proposal,18000,2026-06-28,2026-08-20
