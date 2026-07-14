@@ -1,0 +1,57 @@
+Raja Shankar
+
+AI Tool-Building Challenge Submission
+Tool Name: AI Customer 360 Dashboard
+1. Short Explanation of the Problem Solved
+Customer information is often spread across different systems like CRM, support tickets, and emails. This makes it difficult for sales and customer success teams to quickly understand a customer's situation.
+The AI Customer 360 Dashboard combines data from these sources into one view. It summarizes customer information, highlights risks and opportunities, and suggests the next best action to help teams make faster decisions.
+2. Tool / Workflow
+Technology Used:
+Python,Streamlit,Pandas
+Workflow:
+Load CRM, Support, and Email data.
+Match records using Customer ID.
+Display customer details in one dashboard.
+Generate customer summary, risks, opportunities, health score, and next best action.
+3. Screenshots
+
+
+
+
+4. Dummy Data Used 
+The project uses three sample CSV files:
+CRM Data: Company details, deal stage, deal value, renewal date.
+Support Data: Ticket issues, priority, and status.
+Email Data: Latest customer communication.
+These datasets are connected using Customer ID.
+5. Logic Used
+The dashboard combines data from all three sources and applies simple business rules.
+It checks for:
+Open support tickets
+Negative customer feedback
+Critical product issues
+Based on this, it generates:
+Customer Summary
+Risks
+Opportunities
+Customer Health Score
+Recommended Next Best Action
+6. Example Input and Output
+Example Input
+Customer: Acme Corp
+Stage: Negotiation
+Deal Value: $25,000
+Open Ticket: Login Issue
+Email: "We are unsure about renewing because response times have been slow."
+Example Output
+Summary: Customer is in the negotiation stage with an upcoming renewal.
+Risks:
+Open support ticket
+Customer unhappy with response time
+Opportunity:
+High-value deal with good closing potential
+Next Best Action:
+ Resolve the support issue and schedule a renewal discussion.
+7. Future Improvements
+With more time, I would connect the dashboard to real platforms like Zoho CRM, Gmail, and Slack using APIs. I would also add AI-based sentiment analysis, churn prediction, and real-time customer insights.
+
